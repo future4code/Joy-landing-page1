@@ -71,6 +71,8 @@ flex-wrap: wrap;
 #img-home{
   width: 50%;
   height: 80%;
+  margin: 0 20px;
+  /* background-color: yellow; */
 }
 
 #img-home img{
@@ -79,14 +81,39 @@ flex-wrap: wrap;
 }
 
 #resumo-sobre-nos{
+  /* background-color: teal; */
   width: 40%;
   height: 80%;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 
 #resumo-sobre-nos p{
   padding-top: 5em;
+  line-height: 1.4em;
+  text-align: justify;
 }
 
 #resumo-sobre-nos h2{
   padding-top: 10px;
+  border-bottom: 6px solid #BF3952;
+  display: inline;
+  padding-bottom: 20px
+
+}
+
+.button{
+  margin-top: 90px;
+  padding: 10px;
+  color: white;
+  font-size: 0.93em;
+  border-radius: 10px;
+  border: none;
+  background-color: #D97184;
+  font-weight: bold;
+  cursor: pointer;
 }
