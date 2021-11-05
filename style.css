@@ -1,6 +1,6 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 /* cores
@@ -9,3 +9,53 @@
 #D99AA5 - rosa claro
 #F2D0D7 - rosa mais claro
 #F2F2F2 - cinza */
+
+/* RASTREIO */
+.rastreio {
+  height: 20vh;
+}
+.colunas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 28rem;
+}
+.primeira-coluna img {
+  width: 600px;
+  padding: 25px 35px;
+}
+.segunda-coluna {
+  padding: 10rem 10rem;
+}
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 1fr;
+}
+.titulo-contato {
+  grid-column: 1 / -1;
+  font-weight: bold;
+  text-align: center;
+}
+.redes-sociais, .fale-conosco {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.redes-sociais, .fale-conosco > p {
+  text-align: center;
+  font-weight: bold;
+}
+.redes-sociais ul li {
+  display: inline;
+}
+.redes-sociais img {
+  height: 50px;
+  padding-right: 15px;
+}
+.fale-conosco form {
+  width: 300px;
+}
+.fale-conosco label {
+  display: inline;
+}
