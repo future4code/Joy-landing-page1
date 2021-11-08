@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Log4</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- KARLA -->
@@ -18,11 +20,11 @@
     <nav id="menu">
       <ul>
         <li><a href="index.html"> Quem Somos</a></li>
-        <li><a href="#">Nossos Serviços</a></li>
+        <li><a href="#nossos-servicos">Nossos Serviços</a></li>
         <li><a href="#">Rastreio</a></li>
-        <li><a href="#">Parceiros</a></li>
+        <li><a href="#nossos-parceiros">Parceiros</a></li>
       </ul>
-    </div>
+      </div>
 
 
   </header>
@@ -30,119 +32,170 @@
   <main>
 
     <!-- KARLA -->
-    <div class="sobre-nos">
-     <div id="img-home">
-       <img src="/img/logistica.png" alt="imagem com caminhão e avião representando meios de logistica">
-     </div>
+    <div class="container-imagem-texto">
+      <div id="img-home">
+        <img src="/img/logistica.png" alt="imagem com caminhão e avião representando meios de logistica">
+      </div>
 
-     <div id="resumo-sobre-nos">
-       <h2 class="titulo"> Sobre nós</h2>
-       <p>Somos uma empresa que começou seus primeiras passos no ramo de cama, mesa e banho. Recentemente inauguramos nossas operações logísticas onde o cliente agora fará parte 
-        de nossa cadeia de suprimentos. 
-        <br><br>Ao comprar um de nossos produtos você acompanhará em tempo real toda a 
-        movimentação do produto até a sua casa. <br><br>Por meio do nosso site ou app você terá toda a
-        informação na palma da sua mão.
-        E tudo isso com toda a segurança e agilidade. 
-        A Log4 agradece pela confiança e por você cliente fazer parte da nossa história.</p>
-        <button class="button" type="submit">Saiba mais</button>
+      <div class="container-texto">
+        <h2 class="titulo"> Sobre nós</h2>
+        <p>Somos uma empresa que começou seus primeiras passos no ramo de cama, mesa e banho. Recentemente inauguramos
+          nossas operações logísticas onde o cliente agora fará parte
+          de nossa cadeia de suprimentos.
+          <br><br>Ao comprar um de nossos produtos você acompanhará em tempo real toda a
+          movimentação do produto até a sua casa. <br><br>Por meio do nosso site ou app você terá toda a
+          informação na palma da sua mão.
+          E tudo isso com toda a segurança e agilidade.
+          A Log4 agradece pela confiança e por você cliente fazer parte da nossa história.</p>
+        <button class="button" type="submit"><a href="institucional.html"> Saiba mais</a></button>
       </div>
     </div>
 
 
     <!-- RAPHAEL -->
-    
 
-    <div class="nossos-servicos">
-      
+
+    <div id="nossos-servicos" class="nossos-servicos">
+
       <div id="titulo-servicos">
-      <h2 class="titulo">Entrega Rápida</h2>
-      </div>  
-      
-    <div class="card-nossos-servicos">
-            
-          <div class="imagem-servicos">
-            <img src="img/motoboy.png" alt="logo motoboy realizando entrega"/>
-          </div> 
-          
+        <h2 class="titulo">Entrega Rápida</h2>
+      </div>
 
-          <div class="card-texto"> 
-            <h2 class="titulo-servico">Express</h2>
-            <p>Mercadoria menores serão entregues pela nossa frota de motocicletas</p>
-          </div> 
+      <div class="card-nossos-servicos">
 
-    </div>
-          
-    <div class="card-nossos-servicos"> 
-         
-          <div class="imagem-servicos"> 
-          <img src="img/Fast.jpeg" alt="logo relogio marcando prazo de entrega"/>
-          </div>      
-                           
-        <div class="card-texto">
-        <h2 class="titulo-servico">Ponta a Ponta</h2>
-            <p>Mercadorias maiores sairá direto de nossa fábrica até sua casa</p>
+        <div class="imagem-servicos">
+          <img src="img/motoboy.png" alt="logo motoboy realizando entrega" />
         </div>
-      
+
+
+        <div class="card-texto">
+          <h2 class="titulo-servico">Express</h2>
+          <p>Mercadoria menores serão entregues pela nossa frota de motocicletas</p>
+        </div>
+
+      </div>
+
+      <div class="card-nossos-servicos">
+
+        <div class="imagem-servicos">
+          <img src="img/Fast.jpeg" alt="logo relogio marcando prazo de entrega" />
+        </div>
+
+        <div class="card-texto">
+          <h2 class="titulo-servico">Ponta a Ponta</h2>
+          <p>Mercadorias maiores sairá direto de nossa fábrica até sua casa</p>
+        </div>
+
+      </div>
     </div>
-  </div>
 
     <!-- ELI -->
     <div class="rastreio">
 
+      <div id="titulo-servicos">
+        <h2 class="titulo">Rastreio</h2>
+      </div>
+      <div class="container-imagem-texto">
+        <div id="img-home">
+          <img src="img/pablo-207.png" alt="imagem de um boneco com uma lupa">
+        </div>
+  
+        <div class="container-texto">
+          <h2>Quero rastrear meu pedido</h2>
+          <form action="">
+              <input type="text" id="codigo-rastreio" name="codigo-rastreio" placeholder="Insira o código de rastreio">
+          </form>
+          <button class="button" type="submit" id="botao-rastreio">Rastrear</button>
+        </div>
+      </div>
     </div>
+
+      <!-- <div class="colunas">
+        <section class="primeira-coluna">
+          <img src="img / rastreio2.jpeg" alt="imagem rastreio">
+        </section>
+        <section class="segunda-coluna">
+          <form action="">
+            <div>
+              <label for="rastreio"> Insira o código de rastreio </label>
+              <input type="text" id="codigo-rastreio" name="codigo-rastreio">
+            </div>
+            <input type="submit" value="Rastrear">
+          </form>
+        </section>
+      </div> -->
+
+    
 
     <!-- RAPHAEL -->
     <div class="parceiros">
-      
+
       <div id="nossos-parceiros">
         <h2 class="titulo">Parceiros</h2>
-        </div>  
+      </div>
 
-     <div class="imagem-parceiros">
-       <img src="img/amazon.jpeg" alt="logo da loja amazon">
-     </div>
-     
-     <div class="imagem-parceiros">
+      <div class="imagem-parceiros">
+        <img src="img/amazon.jpeg" alt="logo da loja amazon">
+      </div>
+
+      <div class="imagem-parceiros">
         <img src="img/magalu.jpeg" alt="logo da loja magazine luiza">
-     </div>
+      </div>
 
-     <div class="imagem-parceiros">
+      <div class="imagem-parceiros">
         <img src="img/shopee.png" alt="logo da loja shopee">
-     </div>
-     
-     <div class="imagem-parceiros">
-        <img src="img/ALI-EXPRESS-LOGO.png" alt="logo da loja ali express">
-     </div>
+      </div>
 
-     <div class="imagem-parceiros">
+      <div class="imagem-parceiros">
+        <img src="img/ALI-EXPRESS-LOGO.png" alt="logo da loja ali express">
+      </div>
+
+      <div class="imagem-parceiros">
         <img src="img/submarino logo.png" alt="logo da loja submarino">
-     </div>
-     
-     <div class="imagem-parceiros">
+      </div>
+
+      <div class="imagem-parceiros">
         <img src="img/wish 2.png" alt="logo da loja wish">
-     </div>
+      </div>
 
     </div>
-  </div>
+    </div>
 
     <!-- ELI -->
     <div class="contato">
+
+      <div>
+        <h2 class="titulo">Nossas redes sociais</h2>
+    </div>
+
+    <div class="redes-sociais">
+        <a target="_blank" href="https://www.google.com.br/">
+            <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+        </a>
+    </div>
+
+    <div class="redes-sociais">
+        <a target="_blank" href="https://www.google.com.br/">
+            <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+        </a>
+    </div>
 
     </div>
   </main>
 
   <!-- KARLA -->
   <footer>
-    
-      <ul class="lista-rodape"> 
-        <li><a href="faq.html" target="_blank"> FAQ</a></li>
-        <li>Instucional</li>
-        <li>Onde estamos</li>
-        <li class="texto-rodape">Criado por Log4</li>
-      </ul>
+
+    <ul class="lista-rodape">
+      <li><a href="faq.html" target="_blank"> FAQ</a></li>
+      <li> <a href="institucional.html">Institucional</li></a>
+      <li><a href="institucional.html"> Onde estamos</a></li>
+      <li class="texto-rodape">Criado por Log4</li>
+    </ul>
   </footer>
 
 
-  
+
 </body>
+
 </html>
