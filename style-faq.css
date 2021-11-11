@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.pergunta-resposta{
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+.texto-pergunta{
+  background-color: #F2D0D7;
+  height: 40px;
+  width: 90%;
+  padding-top: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.texto-resposta{
+  background-color: #F2F2F2;
+  height: 40px;
+  width: 80%;
+  padding-top: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.faq-div{
+  padding: 10px;
+}
